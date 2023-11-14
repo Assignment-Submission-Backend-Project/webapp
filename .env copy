@@ -1,0 +1,5 @@
+DB_DIALECT=postgres
+DB_HOST=csye6225.cembtnrhuqio.us-east-1.rds.amazonaws.com
+DB_NAME=csye6225
+DB_USER=csye6225
+DB_PASS=Dadada242424

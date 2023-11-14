@@ -1,0 +1,24 @@
+{
+    "builders": [
+      {
+        "type": "amazon-ebs",
+        "region": "us-east-1",  
+        "source_ami": "ami-0c55b159cbfafe1f0",  
+        "instance_type": "t2.micro",  
+        "ssh_username": "admin",  
+        "ami_name": "custom-ami-{{timestamp}}",
+        "ssh_timeout": "30m",
+        "ami_description": "Custom AMI with MySQL/MariaDB/PostgreSQL",
+        "run_tags": {
+          "Name": "custom-ami"
+        }
+      }
+    ],
+    "provisioners": [
+      {
+        "type": "shell",
+        "script": "install-database.sh"  
+      }
+    ]
+  }
+  

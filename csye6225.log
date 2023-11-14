@@ -1,0 +1,538 @@
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200"}
+{"level":"info","message":"200"}
+{"level":"error","message":"Error in finding account for get/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"Created uuid function \"uuid-ossp\" in RDS;"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200"}
+{"level":"info","message":"405"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"403 Forbidden"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"Created uuid function \"uuid-ossp\" in RDS;"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"201 OK"}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"201 OK"}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"201 OK"}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"201 OK"}
+{"level":"error","message":"Error in creating acc_assignment for post/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"Created uuid function \"uuid-ossp\" in RDS;"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"400"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"400"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"400"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"400"}
+{"level":"info","message":"200 OK"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200 OK"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"204 NO CONTENT"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"400"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"204 NO CONTENT RECORD DELETED IN ACC_ASSIGNMENT"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"401 Not found"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"204 NO CONTENT RECORD DELETED IN ACC_ASSIGNMENT"}
+{"level":"info","message":"204 NO CONTENT"}
+{"level":"info","message":"400"}
+{"level":"info","message":"405"}
+{"level":"info","message":"405"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"405"}
+{"level":"info","message":"405"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"204 NO CONTENT RECORD DELETED IN ACC_ASSIGNMENT"}
+{"level":"info","message":"204 NO CONTENT"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"error","message":"Error in finding assignment for put/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"400"}
+{"level":"info","message":"200 OK"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"405"}
+{"level":"info","message":"405"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"400"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"200 OK"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"200 OK"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"error","message":"Error initializing database:"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"error","message":"Error initializing database:"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"error","message":"Error in creating assignment for post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"200 OK"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400"}
+{"level":"info","message":"204 NO CONTENT RECORD DELETED IN ACC_ASSIGNMENT"}
+{"level":"info","message":"204 NO CONTENT"}
+{"level":"error","message":"Error in finding assignment for delete/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"error","message":"Error initializing database:"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"error","message":"Error initializing database:"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"error","message":"Error initializing database:"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"Created uuid function \"uuid-ossp\" in RDS;"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"400"}
+{"level":"info","message":"200"}
+{"level":"info","message":"400"}
+{"level":"info","message":"405"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"403 Forbidden"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"200 OK"}
+{"level":"error","message":"Error in finding assignment for put/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"400"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"405"}
+{"level":"info","message":"405"}
+{"level":"info","message":"400"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"204 NO CONTENT RECORD DELETED IN ACC_ASSIGNMENT"}
+{"level":"info","message":"204 NO CONTENT"}
+{"level":"error","message":"Error in finding assignment for get/v1/assignments/id"}
+{"level":"info","message":"404 Not found"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
