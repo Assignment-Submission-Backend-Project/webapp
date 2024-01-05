@@ -37,12 +37,12 @@ const sequelize = new Sequelize({
   database: dbName,
   username: dbUser,
   password: dbPass,
-  // dialectOptions: {
-  //   ssl: {
-  //     require: true,
-  //     rejectUnauthorized: false
-  //   }
-  // }
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false
+    }
+  }
 });
 
 
@@ -85,12 +85,12 @@ const sequelize2 = new Sequelize({
   database: dbName,
   username: dbUser,
   password: dbPass,
-  // dialectOptions: {
-  //     ssl: {
-  //         require: true,
-  //         rejectUnauthorized: false
-  //     }
-  // }
+  dialectOptions: {
+      ssl: {
+          require: true,
+          rejectUnauthorized: false
+      }
+  }
 });
 
 const Assignment = sequelize2.define('assignment', {
@@ -145,12 +145,12 @@ const sequelize3 = new Sequelize({
   database: dbName,
   username: dbUser,
   password: dbPass,
-  // dialectOptions: {
-  //     ssl: {
-  //         require: true,
-  //         rejectUnauthorized: false
-  //     }
-  // }
+  dialectOptions: {
+      ssl: {
+          require: true,
+          rejectUnauthorized: false
+      }
+  }
 });
 
 const Acc_Assignment = sequelize3.define('acc_assignment', {
@@ -165,6 +165,44 @@ const Acc_Assignment = sequelize3.define('acc_assignment', {
   }
 }, {
   tableName: 'acc_assignment', // Specify the correct table name here
+});
+
+//FOR SUBMISSION
+const sequelize4 = new Sequelize({
+  dialect: dbDialect,
+  host: dbHost,
+  database: dbName,
+  username: dbUser,
+  password: dbPass,
+  dialectOptions: {
+      ssl: {
+          require: true,
+          rejectUnauthorized: false
+      }
+  }
+});
+
+const Submission = sequelize4.define('submission', {
+  assignment_id: {
+    type: DataTypes.UUID,
+    allowNull: false,
+  },
+  submission_url: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  createdAt: {
+    field: 'submission_date',
+    allowNull: false,
+    type: DataTypes.DATE
+  },
+  updatedAt: {
+    field: 'submission_updated',
+    allowNull: false,
+    type: DataTypes.DATE
+  }
+}, {
+  tableName: 'submission', // Specify the correct table name here
 });
 // Middleware to parse JSON requests
 app.use(express.json());
@@ -284,6 +322,38 @@ async function initializeDatabase() {
           allowNull: false,
           unique: true
         }
+      });
+    }
+    // Check if the "ACCOUNT" table exists
+    const SubmissionTableExists = await sequelize4.getQueryInterface().showAllTables();
+
+    if (!SubmissionTableExists.includes('submission')) {
+      // The "SUBMISSION" table doesn't exist, so create it
+      await sequelize.getQueryInterface().createTable('submission', {
+        id: {
+          type: Sequelize.UUID,
+          allowNull: false,
+          primaryKey: true,
+          defaultValue: sequelize.fn('uuid_generate_v4')
+        },
+        assignment_id: {
+          type: Sequelize.UUID,
+          allowNull: false,
+        },
+        submission_url: {
+          type: Sequelize.STRING,
+          allowNull: false,
+        },
+        submission_date: {
+          type: Sequelize.DATE,
+          allowNull: false,
+          defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
+        },
+        submission_updated: {
+          type: Sequelize.DATE,
+          allowNull: false,
+          defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
+        },
       });
     }
     // Load user data from CSV file and insert into the database

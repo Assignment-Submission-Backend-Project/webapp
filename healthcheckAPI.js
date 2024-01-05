@@ -9,7 +9,8 @@ const port = 3000; // Connects to localhost:3000
 const router = express.Router();
 router.use(express.json());
 require('dotenv').config();
-
+const mailgun = require("mailgun-js");
+// const mg = mailgun.client({ username: '96194b167ba8649e193e9d2bc0c06bdc-8c9e82ec-b1942655', key: process.env.MAILGUN_API_KEY || '96194b167ba8649e193e9d2bc0c06bdc-8c9e82ec-b1942655' });
 const logger = require('./logger');
 const client2 = require('./metrics');
 
@@ -26,12 +27,12 @@ const sequelize = new Sequelize({
   database: dbName,
   username: dbUser,
   password: dbPass,
-  // dialectOptions: {
-  //   ssl: {
-  //     require: true,
-  //     rejectUnauthorized: false
-  //   }
-  // }
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false
+    }
+  }
 });
 async function checkDatabaseConnection() {
   // The object below has the postgres test DB credentials / configurations. Port : 5432, name : test, user : postgres.
@@ -98,7 +99,6 @@ router.get('/healthz', (req, res) => {
       res.status(200).send();
       logger.info('200');
       console.log("200");
-      
     })
     .catch(err => {
       res.status(503).send();
