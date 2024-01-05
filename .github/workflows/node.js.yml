@@ -1,0 +1,61 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Nodejs app build and deployment workflow
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: "postgres:latest"
+        env:
+          POSTGRES_DB: "test"
+          POSTGRES_USER: "postgres"
+          POSTGRES_PASSWORD: "900900"
+          POSTGRES_PORT: "5432"
+          POSTGRES_HOST: "localhost"
+        ports:
+          - "5432:5432"
+        options: >-
+          --health-cmd pg_isready --health-interval 10s --health-timeout 5s
+          --health-retries 5
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Create env file
+        run: |
+
+          touch .env
+
+          echo PGDATABASE=${{ secrets.PGDATABASE }} >> .env
+
+          echo PGUSER=${{ secrets.PGUSER }} >> .env
+
+          echo PGPASSWORD=${{ secrets.PGPASSWORD }} >> .env
+
+          echo PGPORT=${{ secrets.PGPORT }} >> .env
+
+          echo PGHOST=${{ secrets.PGHOST }} >> .env
+
+          echo "cat .env"
+
+          cat .env
+
+          echo "ls -a ."
+
+          ls -a .
+
+          echo "ls -a ${{ github.workspace }}"
+          ls -a ${{ github.workspace }}
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: Install Dependencies
+        run: npm install
+      - name: Integration Tests
+        run: "npm test"
