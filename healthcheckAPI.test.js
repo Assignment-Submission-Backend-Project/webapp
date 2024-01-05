@@ -10,7 +10,7 @@ describe("webapp-test", function () {
     // it("should return 200 OK", function (done) {
 
     //     server
-    //         .get("/healthz")
+    //         .get("/healthcheckAPI)
     //         .expect(200)
     //         .end((err, response) => {
     //             if (err) {

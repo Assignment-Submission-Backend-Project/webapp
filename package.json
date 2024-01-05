@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.1506.0",
     "bcrypt": "^5.1.1",
     "csv-parser": "^3.0.0",
     "dotenv": "^16.3.1",

@@ -536,3 +536,161 @@
 {"level":"info","message":"CSV file loaded."}
 {"level":"info","message":"Server is running on port 3000"}
 {"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200"}
+{"level":"info","message":"405"}
+{"level":"info","message":"401 Unauthorized"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"error","message":"Error in creating assignment for post/v1/assignments"}
+{"level":"error","message":"Error in creating assignment for post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"200 OK"}
+{"level":"info","message":"400"}
+{"level":"info","message":"400"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"204 OK"}
+{"level":"info","message":"400 Bad Params in post/v1/assignments"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Updated num_of_attemps for assignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Updated num_of_attemps for assignment"}
+{"level":"info","message":"400"}
+{"level":"info","message":"204 NO CONTENT RECORD DELETED IN ACC_ASSIGNMENT"}
+{"level":"info","message":"204 NO CONTENT"}
+{"level":"info","message":"204 NO CONTENT RECORD DELETED IN SUBMISSION"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"405"}
+{"level":"info","message":"200"}
+{"level":"info","message":"200"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200"}
+{"level":"info","message":"503"}
+{"level":"info","message":"200"}
+{"level":"info","message":"503"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200"}
+{"level":"info","message":"503"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"200"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Created AccAssignment"}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Updated num_of_attemps for assignment"}
+{"address":"169.254.169.254","code":"CredentialsError","errno":-4062,"level":"error","message":"Error publishing to SNS Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1","originalError":{"address":"169.254.169.254","code":"CredentialsError","errno":-4062,"message":"Could not load credentials from any providers","originalError":{"address":"169.254.169.254","code":"ENETUNREACH","errno":-4062,"message":"EC2 Metadata roleName request returned error","originalError":{"address":"169.254.169.254","code":"ENETUNREACH","errno":-4062,"message":"connect ENETUNREACH 169.254.169.254:80","port":80,"syscall":"connect"},"port":80,"syscall":"connect","time":"2023-11-29T14:38:08.627Z"},"port":80,"syscall":"connect","time":"2023-11-29T14:38:08.627Z"},"port":80,"stack":"Error: connect ENETUNREACH 169.254.169.254:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)","syscall":"connect","time":"2023-11-29T14:38:08.628Z"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"201 OK"}
+{"level":"info","message":"Updated num_of_attemps for assignment"}
+{"address":"169.254.169.254","code":"CredentialsError","errno":-4062,"level":"error","message":"Error publishing to SNS Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1","originalError":{"address":"169.254.169.254","code":"CredentialsError","errno":-4062,"message":"Could not load credentials from any providers","originalError":{"address":"169.254.169.254","code":"ENETUNREACH","errno":-4062,"message":"EC2 Metadata roleName request returned error","originalError":{"address":"169.254.169.254","code":"ENETUNREACH","errno":-4062,"message":"connect ENETUNREACH 169.254.169.254:80","port":80,"syscall":"connect"},"port":80,"syscall":"connect","time":"2023-11-29T14:51:28.657Z"},"port":80,"syscall":"connect","time":"2023-11-29T14:51:28.658Z"},"port":80,"stack":"Error: connect ENETUNREACH 169.254.169.254:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)","syscall":"connect","time":"2023-11-29T14:51:28.658Z"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"CSV file loaded."}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"error","message":"Error initializing database:"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"error","message":"Error initializing database:"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"error","message":"Error initializing database:"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"error","message":"Error initializing database:"}
