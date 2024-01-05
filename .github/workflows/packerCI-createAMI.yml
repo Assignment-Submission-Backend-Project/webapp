@@ -1,0 +1,76 @@
+name: Packer Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      AMI_ID: ${{steps.GET_AMI.outputs.AMI_ID}}
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Zip repository
+        run: |
+          zip -r webapp.zip .
+
+      - name: Packer Init
+        run: packer init .
+
+      - name: Configure AWS Credentials and build packer
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY }}
+          aws-region: "us-east-1"
+
+      - name: Packer Build
+        run: |
+          packer build ami.pkr.hcl
+
+      - name: GET AMI ID
+        id: GET_AMI
+        run: |
+          AMI_ID=$(jq -r '.builds[-1].artifact_id' manifest.json | cut -d ":" -f2)
+          echo $AMI_ID
+          echo $AMI_ID
+          echo "AMI_ID=$AMI_ID" >> "$GITHUB_OUTPUT"
+
+  auto_deployement:
+    runs-on: ubuntu-latest
+    needs: [build]
+    # environment: ${{vars.ENVIRONMENT}}
+    # if: ${{vars.IS_DEPLOY == 'true'}}
+    env:
+      AMI_ID: ${{needs.build.outputs.AMI_ID || vars.AMI_ID}}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.ACCESS_KEY_ID_DEMO }}
+          aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY_DEMO }}
+          aws-region: us-east-1
+      - name: Check AMI ID
+        run: echo $AMI_ID
+      - name: check aws version
+        run: "aws --version"
+      - name: describe launch template
+        run: |
+          aws ec2 describe-launch-templates --launch-template-names=my-launch-template --output=text --no-cli-pager
+      - name: refresh launchTemplate
+        run: |
+          aws ec2 create-launch-template-version --no-cli-pager \
+          --launch-template-data '{"ImageId":"${{env.AMI_ID}}"}' \
+          --source-version 1 --launch-template-name ${{vars.LAUNCH_TEMPLATE_NAME}}
+      - name: refresh autoscaling instance
+        run: |
+          aws autoscaling start-instance-refresh \
+          --auto-scaling-group-name="${{vars.AUTOSCALING_GROUP_NAME}}" \
+          --preferences '{"MinHealthyPercentage": 100}' \
+          --strategy=Rolling --no-cli-pager
